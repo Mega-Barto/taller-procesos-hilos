@@ -14,6 +14,7 @@ completado todas sus iteraciones, se termine de forma genérica el programa. Int
 envío de señales mediante la clase Event.
     
     ```python
+    #Eventos.py
     import threading
     import time
     '''
@@ -45,6 +46,7 @@ envío de señales mediante la clase Event.
 protección de la región crítica ¿En qué lugar tendría cabida?
     
     ```python
+    #Productor-consumidor.py
     import threading
     import time
     import logging
@@ -121,6 +123,7 @@ estudiante debe hacer es que el tiempo de ejecución sea más corto (optimizar e
 respuesta).
     
     ```python
+    #optimizar.py
     from datetime import datetime, timedelta
     import time
     import uuid
